@@ -337,8 +337,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b25d02d5454ac4210abfe815eb4dbe40, type: 3}
   m_Name: 
-  targetTransform: {fileID: 64}
-  faceForward: 0
 --- !u!114 &31
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,9 +348,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1259bb9bcb6e481ba03f5d0337633d5, type: 3}
   m_Name: 
-  axis: 0
-  min: -15
-  max: 15
 --- !u!114 &33
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,17 +359,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fb10c595af974ea6ba0313a749d5c55, type: 3}
   m_Name: 
-  touchPad: 0
-  touchZone:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  deadZone: {x: 0, y: 0}
-  normalize: 0
-  position: {x: 0, y: 0}
-  tapCount: 0
 --- !u!131 &35
 GUITexture:
   m_ObjectHideFlags: 0
@@ -406,17 +390,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fb10c595af974ea6ba0313a749d5c55, type: 3}
   m_Name: 
-  touchPad: 0
-  touchZone:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  deadZone: {x: 0, y: 0}
-  normalize: 0
-  position: {x: 0, y: 0}
-  tapCount: 0
 --- !u!131 &39
 GUITexture:
   m_ObjectHideFlags: 0
@@ -456,14 +429,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc909e8e75e9e47b495b8655f87a7922, type: 3}
   m_Name: 
-  moveJoystick: {fileID: 33}
-  rotateJoystick: {fileID: 37}
-  cameraPivot: {fileID: 66}
-  cameraTransform: {fileID: 59}
-  speed: 6
-  jumpSpeed: 16
-  inAirMultiplier: .25
-  rotationSpeed: {x: 75, y: 45}
 --- !u!143 &45
 CharacterController:
   m_ObjectHideFlags: 0
@@ -513,12 +478,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01049279b64ae427f91486bbcea77beb, type: 3}
   m_Name: 
-  origin: {fileID: 64}
-  zoom: 0
-  zoomMin: -5
-  zoomMax: 5
-  seekTime: 1
-  smoothZoomIn: 0
 --- !u!124 &53
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1313,10 +1272,10 @@ GUIText:
   m_GameObject: {fileID: 954495620}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: most amazing thing in the world
+  m_Text: most amazing thing in the world.
   m_Anchor: 0
   m_Alignment: 0
-  m_PixelOffset: {x: -350, y: 100}
+  m_PixelOffset: {x: -350, y: 170}
   m_LineSpacing: 1
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: 1c3d0093b618fcd46bc4f0ce23c1c9e0, type: 3}
@@ -1523,7 +1482,7 @@ GUIText:
   m_Text: 'Pull the right trigger to see the '
   m_Anchor: 0
   m_Alignment: 0
-  m_PixelOffset: {x: -350, y: 150}
+  m_PixelOffset: {x: -350, y: 200}
   m_LineSpacing: 1
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: 1c3d0093b618fcd46bc4f0ce23c1c9e0, type: 3}
