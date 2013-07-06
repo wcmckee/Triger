@@ -1351,8 +1351,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 743a2af704015e84b894e5aec057b342, type: 3}
   m_Name: 
-  box: {fileID: 0}
-  readynow: 1
 --- !u!1 &727293825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,8 +1462,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 743a2af704015e84b894e5aec057b342, type: 3}
   m_Name: 
-  box: {fileID: 755103245}
-  readynow: 1
 --- !u!1 &788329573
 GameObject:
   m_ObjectHideFlags: 0
