@@ -780,6 +780,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .790369928
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 04ff3ae0e38c44e4d9e28d70d2e02267, type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 04ff3ae0e38c44e4d9e28d70d2e02267, type: 3}
   m_RootGameObject: {fileID: 755103245}
@@ -971,6 +975,7 @@ GameObject:
   - 124: {fileID: 720151656}
   - 114: {fileID: 720151655}
   - 81: {fileID: 720151654}
+  - 114: {fileID: 720151659}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1045,13 +1050,13 @@ Camera:
   m_BackGroundColor: {r: .19166474, g: .301966369, b: .474509805, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: .100000001
+    y: .300000012
+    width: .800000012
+    height: .600000024
   near clip plane: .300000012
   far clip plane: 1000
-  field of view: 60
+  field of view: 47
   orthographic: 0
   orthographic size: 100
   m_Depth: 0
@@ -1061,6 +1066,18 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
+--- !u!114 &720151659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 720151652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743a2af704015e84b894e5aec057b342, type: 3}
+  m_Name: 
+  box: {fileID: 0}
+  readynow: 1
 --- !u!1 &727293825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,9 +1481,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: .100000001
+    width: .200000003
+    height: .100000001
   near clip plane: .5
   far clip plane: 5000
   field of view: 60
@@ -2689,6 +2706,30 @@ Prefab:
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalScale.z
       value: -.221929789
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: field of view
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: .600000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: .100000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
