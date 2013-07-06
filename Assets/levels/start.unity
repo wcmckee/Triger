@@ -42,7 +42,7 @@ RenderSettings:
   m_SpotCookie: {fileID: 0}
   m_ObjectHideFlags: 0
 --- !u!127 &15
-GameManager:
+LevelGameManager:
   m_ObjectHideFlags: 0
 --- !u!157 &17
 LightmapSettings:
@@ -1216,6 +1216,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 625953190}
   - 108: {fileID: 625953189}
+  - 114: {fileID: 625953191}
   m_Layer: 0
   m_Name: Directional light
   m_TagString: Untagged
@@ -1269,6 +1270,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &625953191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 625953188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412e3e96369fcc1459393d041ed1bf86, type: 3}
+  m_Name: 
+  minIntensity: .25
+  maxIntensity: 5
 --- !u!1 &789457948
 GameObject:
   m_ObjectHideFlags: 0
